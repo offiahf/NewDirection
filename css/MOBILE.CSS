@@ -1,0 +1,182 @@
+/* NAVIGATION LINKS */
+.logo{
+    float: none;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#navbar ul{
+    float: none;
+}
+#navbar ul li{
+    float: none;
+}
+
+
+#navbar ul li a{
+ padding: 10px;
+}
+
+#navbar ul li a:hover{
+ border-bottom: 2px solid transparent;
+ padding: 10px;
+ 
+
+}
+
+/* HERO-SECTION */
+
+.showcase-contents{
+    padding-top: 0px;
+}
+
+.main-header{
+display: none;
+}
+
+.second-header{
+    font-size: 35px;
+    margin-top: 90px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    line-height: 2.5rem;
+
+}
+
+.btn{
+    padding: 8px 30px;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+/* mid-section */
+.mid-img{
+    display: none;
+}
+
+.mid-contents{
+    float: none;
+    width: 100%;
+}
+
+.mid-contents h2{
+    margin-top: 40px;
+   font-size: 55px;
+   line-height: 2.9rem;
+   font-weight: 600;
+}
+.mid-contents h3{
+   font-size: 25px;
+   margin: 20px 0;
+   line-height: 1.5rem;
+}
+.mid-contents p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.7rem;
+ 
+}
+
+/* FORM */
+
+#form-page{
+    padding: 0;
+}
+
+.form-content h2{
+    margin-top: 70px;
+    font-size: 40px;
+    line-height: 2.8rem;
+    font-weight: 500;
+
+}
+
+.date,  .white-line{
+    display: none;
+}
+
+.main-word{
+   display: none;
+}
+
+.signup-question{
+    margin-top: 30px;
+    line-height: 1.2rem;
+    margin-bottom: 50;
+}
+
+
+#form-page input{
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    padding: 11px 30px;
+    overflow: hidden;
+    width: 80%;
+    }
+
+    #form-page .submit-btn{
+      width: 40%;
+    
+    }
+
+    /* ABOUT */
+
+    .about-contents h1{
+        font-size: 40px;
+     
+    }
+    .about-contents p{
+        font-size: 16px;
+      line-height: 1.5rem;
+      margin-top: 30px;
+    }
+
+
+
+    .members{
+        display: none;
+    }
+    
+
+    /* DONATION */
+     .left-container{
+  display: none;
+}
+
+.form-contents{
+    margin-top: 20px;
+}
+
+ .left-container{
+  display: none;
+}
+
+.right-container{
+    float: none;
+    width: 100%;
+   
+}
+
+.cash-btn, .cash-monthly{
+    display: none;
+}
+
+.pay-info{
+    margin-top: -14px;
+}
+
+.pay-amt, .payment-amt{
+   margin-top: 14px;
+   padding: 6px 20px;
+}
+
+.donation-forms input{
+    margin-top: 8px;
+}
+
+.donation-forms .submit{
+    margin-top: 14px;
+}

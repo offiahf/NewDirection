@@ -1,0 +1,531 @@
+/* Reset */
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+/* Main styling */
+html, body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+    color: #fff;
+   
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/* UTILITY CLASS */
+.container{
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.primary-color{
+    color: #A7462A;
+}
+
+/* HEADER */
+header{
+   background: url(../images/las\ las\ hero.jpg) no-repeat
+   center center/cover;
+   min-height: 100vh;
+   background-attachment: fixed;
+   
+}
+
+
+/* NAVIGATION LINKS */
+.logo{
+    font-size: 30px;
+    float: left;
+    padding-top: 20px;
+    font-family: cinzel;
+    font-weight: 800;
+    line-height: 2rem;
+}
+
+.contrast{
+    display: block;
+    overflow: hidden;
+}
+
+#navbar ul{
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li{
+    float: left;
+}
+
+#navbar ul li a{
+    font-family:lato;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+
+
+/* SHOWCASE CONTENTS */
+.showcase-contents{
+    text-align: center;
+    padding-top: 190px;
+    
+}
+
+.main-header{
+    font-size: 41px;
+    font-family: poppins;
+    font-weight: 800;
+    color: #fff;
+}
+
+.second-header{
+   font-family: poppins;
+   font-size: 40px;
+   font-weight: 400;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.btn{
+    background-color: #AB7A5C;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 50px;
+    font-family: poppins;
+    font-weight: 500;
+}
+
+/* HOVER STATE */
+
+#navbar ul li a:hover{
+border-bottom: 2px solid white;
+padding-bottom: 14px;
+}
+
+.btn:hover{
+    background-color: #a5543d;
+   
+}
+
+/*MID SECTION  */
+#mid-section{
+    height: 500px;
+}
+
+
+.mid-img{
+    background: url('../images/bible\ mid\ cta.jpg') no-repeat
+    center center/cover;
+    min-height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.mid-contents{
+    height: 100%;
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+    background-color: #AB7A5C;
+ 
+}
+
+.mid-contents h2{
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+
+.mid-contents h3{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    font-size: 24px;
+    font-family: poppins;
+    font-weight: 500;
+
+}
+
+.mid-contents p{
+    color: #fff;
+    margin-bottom: 30px;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+     line-height: 2rem;
+    }
+
+ .read-more{
+        background: #FFF;
+        color: #AB7A5C;
+        font-family: poppins;
+        font-weight: 500;
+    }
+
+  .read-more:hover{
+      color: #fff;
+  }
+
+    /* FORM-PAGE*/
+#form-page{
+   padding: 90px 30px;
+   height: 100vh;
+   background: url(../images/image\ love.jpg) no-repeat
+   center center/cover;
+}
+
+.form-content{
+ margin-top: 50px;
+ text-align: center;
+ color: #fff;
+}
+
+.form-content h2{
+    font-family: poppins;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.date, .main-word{
+    color: #fff;
+}
+
+.date{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main-word{
+   font-family: lato;
+   font-size: 22px;
+   font-weight: 400;
+   line-height: 2.3rem;
+
+}
+
+.white-line{
+    border:1px solid white;
+    width: 25%;
+    margin-left: 39%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .signup-question{
+        color: #fff;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    #form-page input{
+        padding: 14px 50px;
+        margin-right: 15px;
+        border-radius: 30px;
+        border: none;
+    }
+
+ ::placeholder {
+     font-family: poppins;
+     font-size: 16px;
+     text-align: center;
+
+     _}
+  
+
+     .submit-btn{
+         color: #fff;
+      font-family: roboto;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #AB7A5C;
+     }
+
+     .submit-btn:hover{
+         background-color: #bf6b54;
+     }
+
+
+     /* ABOUT */
+     #about{
+         background: url(../images/About\ us\ background.jpg) no-repeat
+         center center/cover; 
+         height: 100vh;
+         padding: 30px 20px;
+     }
+
+     .about-contents h1{
+         font-size: 50px;
+         margin-top: 20px;
+         font-family: poppins;
+         font-weight: 400;
+     }
+
+     .about-contents p{
+         margin-top: 40px;
+         color: #fff;
+         font-family: poppins;
+         font-size: 18px;
+         font-weight: 300;
+         line-height: 2.3rem;
+     }
+ 
+      .members{
+          margin-right: 6%;
+          display: inline-block;
+          text-align: center;
+      }
+
+     .members img{
+         border-radius: 160px;
+         width: 100px;
+         margin-top: 60px;
+       
+     }
+
+     .members p{
+         color: #fff;
+         font-family: lato;
+         font-weight: 400;
+         font-size: 16px;
+         
+     }  
+
+     .members h3{
+         font-family: poppins;
+         color: #fff;
+         font-size: 17px;
+         font-weight: 700;
+     }
+
+     .first-profile{
+         margin-left: 24%;
+     }
+     
+     /* DONATIONS */
+      #donation{
+          height: 100vh;
+          overflow: hidden;
+      }
+
+.left-container{
+    float: left;
+    width: 50%;
+    min-height: 100%;
+    background: url(../images/donation.jpg) no-repeat center
+    center/cover;
+}
+
+.left-contents{
+    padding: 50px 14px;
+   
+}
+
+.left-contents h3{
+    font-size: 50px;
+    font-family: poppins;
+    font-weight: 700;
+    line-height:2.8rem;
+    width: 650px;
+    text-align:left;
+    overflow:hidden;
+    margin-bottom: 30px;
+   
+
+}
+
+.left-contents p{
+    width: 650px;
+    margin-top: 18px;
+    font-family: poppins;
+    font-weight: 300;
+    font-size: 17px;
+    overflow: hidden;
+    width: 650px;
+}
+
+.left-contents h4{
+  margin-top: 20px;
+}
+
+.right-container{
+    background-color: #c6544e;
+    overflow: hidden;
+    float: right;
+    width: 50%;  
+    height: 100%;
+
+}
+
+.form-contents{
+    background-color: rgb(60, 59, 59);
+    height: 90vh;
+    max-width: 400px;
+    margin: 15px auto;
+    margin-top: 40px;
+    text-align: center;
+    border: 1px solid #c6544e;
+
+
+}
+
+.form-contents h3{
+   padding-top: 20px;
+}
+
+.cash-btn, .cash-monthly{
+   background-color: #fff;
+   display: inline-block;
+   padding: 6px 12px;
+   border-radius: 30px;
+   font-size: 13px;
+   font-family: poppins;
+   font-weight: 500;
+   margin-top: 24px;
+   margin-right: 12px;
+  
+}
+
+.cash-btn a{
+    color: rgb(75, 73, 73);
+    font-weight: 700;
+}
+
+.cash-btn:hover, .pay-amt:hover{
+    background-color: rgb(234, 234, 234);
+
+}
+
+.cash-monthly{
+    padding: 6px 14px;
+    background-color:#000;
+    font-weight: 600;
+}
+
+
+.cash-monthly:hover, 
+.prm-clr:hover{
+    background-color:rgb(38, 38, 38);
+}
+
+.pay-info{
+    font-family: poppins;
+    font-size: 13px;
+    line-height: 1.4rem;
+    padding-top: 26px;
+    width: 350px;
+    margin: auto;
+}
+
+.pay-amt{
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-right: 12px;
+   
+}
+
+.pay-amt a{
+    color: rgb(98, 98, 98);
+}
+
+.payment-amt{
+    background-color: #fff;
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-right: 12px;
+    margin-bottom: 14px;
+}
+.payment-amt a{
+    color: rgb(98, 96, 96);
+}
+
+ .prm-clr{
+    background-color: #000;
+}
+ .prm-clr a{
+   color: #fff;
+}
+
+
+/* Donation-Forms */
+
+
+.donation-forms input{
+    width: 80%;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: none;
+}
+
+.donation-forms ::placeholder{
+    color: rgb(104, 103, 103);
+    text-align: left;
+    padding-left: 8px;
+    font-size: 14px;
+  
+}
+
+.donation-forms .submit{
+    background-color: rgb(246, 70, 70);
+    color: #Fff;
+    width: 120px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-family: poppins;
+    font-weight: 600;
+}
+
+.donation-forms .submit:hover{
+    background-color: rgb(201, 61, 61);
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+#church-footer{
+    text-align: center;
+    background-color: #444;
+    padding: 20px;
+    color: #fff;
+}
+
+#church-footer p{
+    font-size: 14px;
+    font-family: poppins;
+    font-weight: 500;
+}

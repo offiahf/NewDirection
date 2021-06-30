@@ -1,0 +1,147 @@
+/* NAVIGATION-LINKS */
+.logo{
+    font-size: 20px;
+}
+
+.showcase-contents{
+    padding-top: 100px;
+}
+
+.main-header{
+    line-height: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.second-header{
+    margin-bottom: 40px;
+}
+/* MID-SECTION */
+#mid-section{
+    overflow: auto;
+}
+
+#mid-section .mid-img{
+    display: none;
+}
+
+.mid-contents{
+    float: none;
+    width: 100%;
+}
+
+#mid-section h2{
+    font-size: 40px;
+}
+
+#mid-section h3{
+    font-size: 25px;
+}
+
+/* FORM-PAGE */
+#form-page{
+    padding: 10px 30px;
+}
+
+.form-content h2{
+    font-size: 32px;
+
+}
+
+.form-content h2{
+    font-size: 40;
+}
+
+.date{
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.main-word{
+   font-size: 16px;
+   line-height: 1.5rem;
+   font-weight: 500;
+}
+
+.white-line{
+    margin-top: 20px;
+}
+
+.signup-question{
+   display: none;
+
+}
+
+#form-page input{
+margin: auto;
+    display: block;
+    margin-top: 14px;
+    padding: 8px 120px;
+    overflow: hidden;
+
+}
+#form-page .submit-btn{
+    padding: 10px 40px;
+}
+
+
+
+
+
+
+/* ABOUT */
+
+#about{
+    margin: auto;
+}
+
+.about-contents h1{
+    font-size: 40px;
+}
+.about-contents p{
+    font-size: 18px;
+    line-height: 2rem;
+}
+.members,  .first-profile {
+display: none;
+
+
+
+    
+}
+
+/* DONATIONS */
+
+.form-contents{
+    margin-top: 20px;
+}
+
+ .left-container{
+  display: none;
+}
+
+.right-container{
+    float: none;
+    width: 100%;
+   
+}
+
+.cash-btn, .cash-monthly{
+    display: none;
+}
+
+.pay-info{
+    margin-top: -14px;
+}
+
+.pay-amt, .payment-amt{
+   margin-top: 14px;
+   padding: 6px 20px;
+}
+
+.donation-forms input{
+    margin-top: 8px;
+}
+
+.donation-forms .submit{
+    margin-top: 14px;
+}
